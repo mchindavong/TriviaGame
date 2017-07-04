@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+</head>
+<body>
+	<header id="masthead">
+		<div class="container">
+			<h1>Trivia Game</h1>
+		</div>
+	</header>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1 class="rules">You have 30 seconds to answer all 5 questions.</h1>
+			<p class="rules">Are you ready??</p>
+			<h2>
+				<button type="submit" id="start-button">Start!</button>
+			</h2>
+
+			<div id="show-number"></div>
+			<!--  1 -->
+			<p class="question">Britney Spears' first song was...</p>
+			<ul class="answers">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Sometimes</label><br/>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Baby One More Time</label><br/>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">You Drive Me Crazy</label><br/>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Toxic</label><br/>
+			</ul>
+			<!--  2 -->
+			<p class="question">Which basketball player was in "Space Jam"?</p>
+			<ul class="answers">
+			<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">Tim Hardaway</label><br/>
+			<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">Michael Jordan</label><br/>
+			<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">Dennis Rodman</label><br/>
+			<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Scottie Pippen</label><br/>
+			</ul>
+			<!--  3 -->
+			<p class="question">Mr. Feeny was the teacher in which popular TV show?</p>
+			<ul class="answers">
+			<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Boy Meets World</label><br/>
+			<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">Saved By The Bell</label><br/>
+			<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">Growing Pains</label><br/>
+			<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">Fresh Prince of Bel-Air</label><br/>
+			</ul>
+			<!--  4 -->
+			<p class="question">In Spice Girls, Victoria Beckham was known as...</p>
+			<ul class="answers">
+			<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Sporty Spice</label><br/>
+			<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">Baby Spice</label><br/>
+			<input type="radio" name="q4" value="c" id="q4c"><label for="q4c">Scary Spice</label><br/>
+			<input type="radio" name="q4" value="d" id="q4d"><label for="q4d">Posh Spice</label><br/>
+			</ul>
+			<!--  5 -->
+			<p class="question">Full House took place in which city?</p>
+			<ul class="answers">
+			<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">New York City</label><br/>
+			<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Chicago</label><br/>
+			<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">San Francisco</label><br/>
+			<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">Los Angeles</label><br/>
+			</ul>
+
+			<button type="button" id="submit">Submit Answers!</button>
+
+			<div id="results">
+			</div>
+
+		</section>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
